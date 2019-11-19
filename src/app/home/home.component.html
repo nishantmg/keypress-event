@@ -1,0 +1,29 @@
+<span>Input A</span>
+<input type="number" [(ngModel)]="inputA"><br>
+<span>Input B</span>
+<input type="number" [(ngModel)]="inputB"><br>
+<span>Result</span>
+<input type="number" [value]="result"><br>
+<button routerLink='/demo'>Next Page</button>
+
+<br><br><br><h2>Setting</h2>
+<table>
+  <th>Actions</th>
+  <th>Keys</th>
+  <tr>
+    <td>Add</td>
+    <td><input [value]="add" [(ngModel)]="add"></td>
+  </tr>
+  <tr>
+    <td>Subtract</td>
+    <td><input [value]="sub" [(ngModel)]="sub"></td>
+  </tr>
+  <tr>
+    <td>Multiplication</td>
+    <td><input [value]="mul" [(ngModel)]="mul"></td>
+  </tr>
+  <tr>
+    <td>Division</td>
+    <td><input [value]="div" [(ngModel)]="div"></td>
+  </tr>
+</table>
